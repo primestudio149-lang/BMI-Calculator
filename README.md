@@ -1,6 +1,6 @@
 <div align="center">
   <img src="bmi.png" alt="Project Logo" width="120" />
-  <h1> 💎 Glassmorphism BMI Calculator </h1>
+  <h1> 💎 BMI Calculator </h1>
   <p><b>A sleek, modern health tool built with glassmorphism design principles and personalized age insights.</b></p>
 
   <img src="https://img.shields.io/badge/Status-Active-00E599?style=for-the-badge" />
