@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="bmi.png">
+</head>
+<body>
+    <div class="glass-container">
+        <div class="header">
+            <h1>BMI Calculator</h1>
+            <p>Calculate your body mass index with personalized age insights.</p>
+        </div>
+
+        <div class="input-section">
+            <div class="input-group">
+                <div class="input-field">
+                    <label class="input-label">Age (Optional)</label>
+                    <div class="input-container">
+                        <input type="number" id="age" placeholder="25">
+                        <span class="unit">yrs</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="input-group">
+                <div class="input-field">
+                    <label class="input-label">Height</label>
+                    <div class="input-container">
+                        <input type="number" id="height" placeholder="175">
+                        <span class="unit">cm</span>
+                    </div>
+                </div>
+                <div class="input-field">
+                    <label class="input-label">Weight</label>
+                    <div class="input-container">
+                        <input type="number" id="weight" placeholder="70">
+                        <span class="unit">kg</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <button class="calculate-btn" onclick="calculateBMI()">Calculate BMI</button>
+
+        <div class="result" id="result">
+            <div class="bmi-value" id="bmiValue">0.0</div>
+            <div class="bmi-category" id="bmiCategory">Result</div>
+            <div class="bmi-description" id="bmiDescription">Enter your details above.</div>
+        </div>
+
+        <div class="footer">
+            <a href="YOUR_GITHUB_REPO_LINK_HERE" target="_blank" class="github-link">
+                <i class="fab fa-github"></i> View on GitHub
+            </a>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
